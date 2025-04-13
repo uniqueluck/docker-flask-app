@@ -40,9 +40,13 @@ It also includes configuring SSH with GitHub and pushing the project to a GitHub
 ### 2️⃣ Install Docker
 
 sudo apt update
+
 sudo apt install docker.io -y
+
 sudo systemctl start docker
+
 sudo systemctl enable docker
+
 sudo usermod -aG docker ubuntu
 
 
