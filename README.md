@@ -44,21 +44,29 @@ sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker ubuntu
+![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/1bcfb2251791e563aab7ff222b63621b8f400ba0/Screenshot_install_docker.png)
+
 
 ### 3️⃣ Create Your Flask App
 mkdir myapp && cd myapp
 nano app.py
+![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/1bcfb2251791e563aab7ff222b63621b8f400ba0/app.py)
+
 
 ### 4️⃣ Add requirements.txt
+![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/1bcfb2251791e563aab7ff222b63621b8f400ba0/Screenshot_requr.png)
 
 ### 5️⃣ Create a Dockerfile
+![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/1bcfb2251791e563aab7ff222b63621b8f400ba0/Screenshot%20_DF.png)
 
 ### 6️⃣ Build and Run Docker Container
+![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/1bcfb2251791e563aab7ff222b63621b8f400ba0/Screenshot_Command.png)
 
 docker build -t myapp .
 docker run -p 5000:5000 myapp
 
 ✔️ App will be accessible at:
 http://<your-ec2-public-ip>:5000
+![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/1bcfb2251791e563aab7ff222b63621b8f400ba0/Screenshot_output.png)
 
 
