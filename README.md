@@ -44,6 +44,8 @@ sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker ubuntu
+
+
 ![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/1bcfb2251791e563aab7ff222b63621b8f400ba0/Screenshot_install_docker.png)
 
 
