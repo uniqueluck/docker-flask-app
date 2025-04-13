@@ -31,6 +31,8 @@ It also includes configuring SSH with GitHub and pushing the project to a GitHub
    - Security group:
      - Allow **port 22** (SSH)
      - Allow **port 5000** (Flask)
+       ![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/fe5db788c4f3282cc910c2590174a0b8065bf9b7/ec2_launch.jpg)
+
 3. Connect using SSH:
    ```bash
    ssh -i your-key.pem ubuntu@<your-ec2-public-ip>
