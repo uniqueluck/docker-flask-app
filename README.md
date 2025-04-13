@@ -68,7 +68,9 @@ nano app.py
 ### 6️⃣ Build and Run Docker Container
 ![App Screenshot](https://github.com/uniqueluck/docker-flask-app/blob/1bcfb2251791e563aab7ff222b63621b8f400ba0/Screenshot_Command.png)
 
+
 docker build -t myapp .
+
 docker run -p 5000:5000 myapp
 
 ✔️ App will be accessible at:
